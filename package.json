@@ -8,6 +8,21 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "keywords": [
+    "astro-tailwind",
+    "astro-tailwindcss",
+    "astro tailwind",
+    "astro tailindcss",
+    "tailindcss",
+    "tailwind",
+    "astro",
+    "withastro",
+    "astro-integration"
+  ],
+  "files": [
+    "./src"
+  ],
+  "main": "./src/index.ts",
   "dependencies": {
     "astro": "^5.1.5"
   }
