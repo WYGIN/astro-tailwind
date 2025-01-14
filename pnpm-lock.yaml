@@ -7,9 +7,21 @@ settings:
 importers:
   .:
     dependencies:
+      autoprefixer:
+        specifier: ^10.4.20
+        version: 10.4.20(postcss@8.5.0)
+      postcss:
+        specifier: ^8.5.0
+        version: 8.5.0
+      postcss-import:
+        specifier: ^16.1.0
+        version: 16.1.0(postcss@8.5.0)
       postcss-load-config:
         specifier: ^6.0.1
         version: 6.0.1(jiti@1.21.7)(postcss@8.5.0)(yaml@2.7.0)
+      postcss-nesting:
+        specifier: ^13.0.1
+        version: 13.0.1(postcss@8.5.0)
     devDependencies:
       "@eslint/js":
         specifier: ^9.18.0
@@ -23,9 +35,6 @@ importers:
       astro:
         specifier: ^5.1.6
         version: 5.1.6(@types/node@22.10.6)(jiti@1.21.7)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.7.0)
-      autoprefixer:
-        specifier: ^10.4.20
-        version: 10.4.20(postcss@8.5.0)
       eslint:
         specifier: ^9.18.0
         version: 9.18.0(jiti@1.21.7)
@@ -35,15 +44,6 @@ importers:
       lefthook:
         specifier: ^1.10.4
         version: 1.10.4
-      postcss:
-        specifier: ^8.5.0
-        version: 8.5.0
-      postcss-import:
-        specifier: ^16.1.0
-        version: 16.1.0(postcss@8.5.0)
-      postcss-nesting:
-        specifier: ^13.0.1
-        version: 13.0.1(postcss@8.5.0)
       prettier:
         specifier: 3.4.2
         version: 3.4.2
