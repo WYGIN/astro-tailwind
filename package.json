@@ -2,6 +2,17 @@
   "name": "@wygininc/tailwind",
   "type": "module",
   "version": "0.0.1",
+  "keywords": [
+    "astro-tailwind",
+    "astro-tailwindcss",
+    "astro tailwind",
+    "astro tailwindcss",
+    "tailwind",
+    "tailwindcss",
+    "astro",
+    "withastro",
+    "astro-integration"
+  ],
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
