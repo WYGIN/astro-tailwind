@@ -12,9 +12,10 @@ export default function tailwindIntegration(
     name: "tailwindcss",
     hooks: {
       "astro:config:setup": async ({ config, updateConfig, injectScript }) => {
-        if (
-          !config.integrations.find(({ name }) => name === "@astrojs/tailwind")
-        ) {
+        const twIntegration = config.integrations.find(
+          ({ name }) => name === "@astrojs/tailwind",
+        );
+        if (!twIntegration) {
           updateConfig({
             vite: {
               plugins: [tailwind({ applyBaseStyles: false })],
