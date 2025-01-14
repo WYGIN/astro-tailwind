@@ -19,7 +19,7 @@ pre-commit:
     eslint:
       stage_fixed: true
       glob: "*.{js,ts,jsx,tsx,mjs,mts}"
-      run: pnpm exec eslint --fix {all_files}
+      run: pnpm dlx eslint --fix {all_files}
     prettier:
       stage_fixed: true
       glob: "*.{js,ts,jsx,tsx,mjs,mts,astro,css,less,sass,scss,json,md,yaml,yml}"
